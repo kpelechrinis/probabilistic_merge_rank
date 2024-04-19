@@ -5,8 +5,8 @@ import random
 
 def pmr(ranks, n_sim=1000):
     # ranks is a dictionary that includes each rankers ranking
-    # rankers are enumerated from 1 to m 
-    # the items are enumerated from 0 to n
+    # raters are enumerated from 1 to m 
+    # the items are enumerated from 0 to n-1
     items = set(ranks[1])
     
     data = []
